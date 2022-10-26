@@ -5,10 +5,10 @@
 
 ## Enunciado
 
-O grupo Green Software Foundation está mapeando o grau de maturidade das empresas com ligação aos seus parceiros quanto aos Objetivos de Desenvolvimento Sustentável e entrou em contato com nossos Gestores solicitando algumas features com grande **Urgência**!
+O grupo Green Software Foundation está mapeando o grau de maturidade das empresas com ligação aos seus parceiros quanto aos Objetivos de Desenvolvimento Sustentável (ODS's) e entrou em contato com nossos Gestores solicitando algumas features com grande **Urgência**!
 
 Pela seu bom histórico de atuação em projetos anteriores, você foi um dos especialistas selecionados para entregar esta tarefa dentro do prazo!
-Porém como você já está alocado em um projeto e tem suas atividades e agendas cheias, será necessário trabalhar neste projeto fora do horário de trabalho! ;)
+
 
 Em nosso projeto temos uma Aplicação Web que já disponibiliza uma lista com cards de Empresas.
 
