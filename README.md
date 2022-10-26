@@ -10,7 +10,7 @@ O grupo Green Software Foundation está mapeando o grau de maturidade das empres
 Pela seu bom histórico de atuação em projetos anteriores, você foi um dos especialistas selecionados para entregar esta tarefa dentro do prazo!
 
 
-Em nosso projeto temos uma Aplicação Web que já disponibiliza uma lista com cards de Empresas.
+Em nosso projeto temos uma Aplicação Web que já disponibiliza uma lista com cards das Empresas.
 
 
 
