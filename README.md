@@ -7,7 +7,7 @@
 
 O grupo Green Software Foundation está mapeando o grau de maturidade das empresas com ligação aos seus parceiros quanto aos Objetivos de Desenvolvimento Sustentável (ODS's) e entrou em contato com nossos Gestores solicitando algumas features com grande **Urgência**!
 
-Pela seu bom histórico de atuação em projetos anteriores, você foi um dos especialistas selecionados para entregar esta tarefa dentro do prazo!
+Pelo seu bom histórico de atuação em projetos anteriores, você foi um dos especialistas selecionados para entregar esta tarefa dentro do prazo!
 
 
 Em nosso projeto temos uma Aplicação Web que já disponibiliza uma lista com cards das Empresas.
@@ -29,7 +29,7 @@ Obs: a lista de ODS's já está inclusa no objeto empresa.
 
 Obs: As notícias não virão da nossa base de dados, para obter as notícias devemos utilizar a seguinte API do IBGE: <http://servicodados.ibge.gov.br/api/v3/noticias/?busca=sustentabilidade> (atributo: items).
 
-4. **Entrega** - as entregas devem ser no próprio repositório do código, para isso você deve **criar** no repositório uma branch **com seu nome (EID)** separado por underline ( **_** ) para enviar o código até o dia **06/11 às 22hrs**.
+4. **Entrega** - as entregas devem ser no próprio repositório do código, para isso você deve **criar** no repositório uma branch **com seu nome (EID)** separado por underline ( **_** ) para enviar o código até o dia **06/11 às 22h**.
 
 ## Considerações:
 
