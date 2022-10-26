@@ -34,7 +34,7 @@ Obs: As notícias não virão da nossa base de dados, para obter as notícias de
 ## Considerações:
 
 * A avaliação será sobre o código desenvolvido;
-* Caso não termine todas as features solicitadas a tempo **entregue! Seu código será avaliado!**;
+* Caso não termine todas as features solicitadas a tempo entregue! **Seu código será avaliado!**;
 * É requisito que o projeto execute corretamente;
 * Serão considerados os itens apresentados no último Tech Talks;
 * Serão considerados estruturas de pastas e organização do projeto;
