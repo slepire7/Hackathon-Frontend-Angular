@@ -312,6 +312,7 @@
   .dica-news {
     font-weight: bold;
     color: black;
+    animation: animate 1.5s linear infinite;
   }
 
   p{
@@ -350,3 +351,17 @@
     transform:rotate(180deg);
     transform-origin:center right;
   }
+
+  @keyframes animate {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
