@@ -10,12 +10,17 @@ import { Ods } from 'src/models/ods';
 export class CardService {
   companiesUrl = 'http://localhost:9999/api/companies';
 
-  constructor() {}
+  constructor() { }
 
   getCompanies(): Company[] {
     let response: Company[] = [];
     Object.assign(response, companiesMock.data);
     return response;
+  }
+  getSearchCompanies(name: string): Company[] {
+    let response: Company[] = [];
+    Object.assign(response, companiesMock.data);
+    return response.filter(item => item.name.toLocaleLowerCase() == name.toLocaleLowerCase() || item.name.toLocaleLowerCase().includes(name.toLocaleLowerCase()));
   }
 
   getOds(): Ods[] {

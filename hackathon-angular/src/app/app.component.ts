@@ -18,7 +18,26 @@ export class AppComponent {
     this.getCompanies();
   }
 
-  getCompanies(): void{
+  getCompanies(): void {
     this.companies = this.cardService.getCompanies();
+  }
+  searchCompanies(name: string) {
+
+    this.companies = this.cardService.getSearchCompanies(name);
+  }
+
+  OnchangeSearchCompany(event: KeyboardEvent) {
+    const inputElement = <HTMLInputElement>event.target;
+
+    if (inputElement.value.trim() === "") {
+      event.stopImmediatePropagation();
+      this.getCompanies();
+      return
+    }
+    if (event.code == 'Space') {
+      event.stopImmediatePropagation();
+      return
+    }
+    this.searchCompanies(inputElement.value);
   }
 }
