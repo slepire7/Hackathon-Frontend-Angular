@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Company } from 'src/models/company';
 import { ModalIBGEComponent } from './components/modal-ibge/modal-ibge.component';
-import { CardService } from './services/card.service';
+import { CompanyService } from './services/company.service';
 
 
 @Component({
@@ -14,18 +14,18 @@ export class AppComponent {
   title = 'hackathon-angular';
   companies: Company[] = [];
 
-  constructor(private cardService: CardService, private dialog: MatDialog) { }
+  constructor(private CompanyService: CompanyService, private dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.getCompanies();
   }
 
   getCompanies(): void {
-    this.companies = this.cardService.getCompanies();
+    this.companies = this.CompanyService.getCompanies();
   }
   searchCompanies(name: string) {
 
-    this.companies = this.cardService.getSearchCompanies(name);
+    this.companies = this.CompanyService.getSearchCompanies(name);
   }
 
   OnchangeSearchCompany(event: KeyboardEvent) {

@@ -14,3 +14,7 @@ p {
   overflow: hidden;
   width: 60%;
 }
+.modal-content{
+  overflow-y: scroll;
+  height: 88%;
+}

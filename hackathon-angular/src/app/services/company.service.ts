@@ -7,7 +7,7 @@ import { Company } from 'src/models/company';
 import { Ods } from 'src/models/ods';
 
 @Injectable()
-export class CardService {
+export class CompanyService {
   companiesUrl = 'http://localhost:9999/api/companies';
 
   constructor() { }

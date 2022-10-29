@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CardComponent } from './components/card/card.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CardService } from './services/card.service';
-import { HttpErrorHandler } from './http-error-handler.service';
+import { CompanyService } from './services/company.service';
+import { HttpErrorHandler } from './core/http-error-handler.service';
 import { SharedModule } from 'src/shared/shared.module';
 import { ModalComponent } from './components/modal/modal.component';
 import { IBGEService } from './services/ibge.service';
@@ -30,7 +30,7 @@ import { PipesModule } from './pipe/pipe.module';
     SharedModule,
     PipesModule
   ],
-  providers: [CardService, HttpErrorHandler, IBGEService],
+  providers: [CompanyService, HttpErrorHandler, IBGEService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
