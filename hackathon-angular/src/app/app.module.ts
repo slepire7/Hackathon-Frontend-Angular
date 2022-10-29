@@ -10,13 +10,17 @@ import { CardService } from './services/card.service';
 import { HttpErrorHandler } from './http-error-handler.service';
 import { SharedModule } from 'src/shared/shared.module';
 import { ModalComponent } from './components/modal/modal.component';
+import { IBGEService } from './services/ibge.service';
+import { ModalIBGEComponent } from './components/modal-ibge/modal-ibge.component';
+import { PipesModule } from './pipe/pipe.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    ModalComponent
+    ModalComponent,
+    ModalIBGEComponent,
   ],
   imports: [
     BrowserModule,
@@ -24,8 +28,9 @@ import { ModalComponent } from './components/modal/modal.component';
     BrowserAnimationsModule,
     HttpClientModule,
     SharedModule,
+    PipesModule
   ],
-  providers: [CardService, HttpErrorHandler],
+  providers: [CardService, HttpErrorHandler, IBGEService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

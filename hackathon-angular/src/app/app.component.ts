@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { Company } from 'src/models/company';
+import { ModalIBGEComponent } from './components/modal-ibge/modal-ibge.component';
 import { CardService } from './services/card.service';
 
 
@@ -12,7 +14,7 @@ export class AppComponent {
   title = 'hackathon-angular';
   companies: Company[] = [];
 
-  constructor(private cardService: CardService) { }
+  constructor(private cardService: CardService, private dialog: MatDialog) { }
 
   ngOnInit(): void {
     this.getCompanies();
@@ -39,5 +41,11 @@ export class AppComponent {
       return
     }
     this.searchCompanies(inputElement.value);
+  }
+  openIBGENews(event: Event) {
+    this.dialog.open(ModalIBGEComponent, {
+      width: "100%",
+      height: "90%"
+    })
   }
 }

@@ -8,6 +8,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { MatInputModule } from '@angular/material/input';
+import {MatDividerModule} from '@angular/material/divider';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -20,6 +22,7 @@ import { MatInputModule } from '@angular/material/input';
     MatCardModule,
     MatListModule,
     MatInputModule,
+    MatDividerModule,
   ],
   exports: [
     CommonModule,
@@ -30,6 +33,7 @@ import { MatInputModule } from '@angular/material/input';
     MatCardModule,
     MatListModule,
     MatInputModule,
+    MatDividerModule,
   ]
 })
 export class SharedModule {
